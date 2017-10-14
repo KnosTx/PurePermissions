@@ -167,4 +167,3 @@ logger_messages:
   setProvider_NotFound: "データー管理方式%var0%は存在しません。デフォルトの方式に設定しました。"
   unregisterPlayer: "プレイヤーを%var0%から解除してます..."
   YAMLProvider_InvalidGroupsSettings: "GROUPS.YMLの設定が間違っています: groups.yml が無効、または壊れているかどうかに確認してください。"
-‌...
