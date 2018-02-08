@@ -27,6 +27,13 @@ class PPRankExpiredEvent extends PluginEvent
     public static $handlerList = null;
 
     /**
+     * @var IPlayer
+     */
+    private $player;
+
+    private $levelName;
+
+    /**
      * @param PurePerms $plugin
      * @param IPlayer $player
      * @param PPGroup $group
