@@ -25,6 +25,17 @@ class PPGroupChangedEvent extends PluginEvent
     */
 
     public static $handlerList = null;
+    /**
+     * @var PPGroup
+     */
+    private $group;
+
+    /**
+     * @var IPlayer
+     */
+    private $player;
+
+    private $levelName;
 
     /**
      * @param PurePerms $plugin
