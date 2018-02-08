@@ -2,7 +2,6 @@
 
 namespace _64FF00\PurePerms\event;
 
-use _64FF00\PurePerms\PPGroup;
 use _64FF00\PurePerms\PurePerms;
 
 use pocketmine\event\plugin\PluginEvent;
@@ -36,7 +35,6 @@ class PPRankExpiredEvent extends PluginEvent
     /**
      * @param PurePerms $plugin
      * @param IPlayer $player
-     * @param PPGroup $group
      * @param $levelName
      */
     public function __construct(PurePerms $plugin, IPlayer $player, $levelName)
