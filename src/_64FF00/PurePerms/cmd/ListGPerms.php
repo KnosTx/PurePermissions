@@ -3,7 +3,6 @@
 namespace _64FF00\PurePerms\cmd;
 
 use _64FF00\PurePerms\PurePerms;
-use _64FF00\PurePerms\PPGroup;
 use pocketmine\plugin\Plugin;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
