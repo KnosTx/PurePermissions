@@ -91,6 +91,7 @@ class UserDataManager
     }
 
     /**
+     * @param $player IPlayer
      * @param null $levelName
      * @return array
      */
