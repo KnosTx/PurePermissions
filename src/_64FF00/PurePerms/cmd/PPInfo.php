@@ -9,7 +9,6 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\ConsoleCommandSender;
 use pocketmine\command\PluginIdentifiableCommand;
 use pocketmine\plugin\Plugin;
-use pocketmine\Player;
 use pocketmine\utils\TextFormat;
 
 class PPInfo extends Command implements PluginIdentifiableCommand
