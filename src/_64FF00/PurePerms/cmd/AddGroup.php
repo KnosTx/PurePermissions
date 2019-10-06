@@ -63,6 +63,7 @@ class AddGroup extends Command implements PluginIdentifiableCommand
         
         if($result === PurePerms::SUCCESS)
         {
+            Server::getInstance()->broadcastMessage("§e(§b!!!§e) §6" . $sender->getName() . " §fa reçus le grade §6" . $args[0] . "");
             $sender->sendMessage(TextFormat::GREEN . PurePerms::MAIN_PREFIX . ' ' . $this->plugin->getMessage("cmds.addgroup.messages.group_added_successfully", $args[0]));
         }
         elseif($result === PurePerms::ALREADY_EXISTS)
