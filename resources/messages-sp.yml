@@ -1,4 +1,3 @@
-
 # PurePerms by 64FF00 (xktiverz@gmail.com, @64ff00 for Twitter)
 
 # Original Spanish message resource by @JoahDave (GitHub)
@@ -20,15 +19,15 @@ cmds:
     desc: "Añade un grupo a otro grupo a la lista de Herencia."
     usage: "Usage: /addparent <target_group> <parent_group>"
     messages:
-      addparent_successfully: "Añadido %var0% al grupo %var1% a la lista de Herencia."	 
-      target_already_inherits: "Grupo %var0% ya esta en la lista de Herencia %var1%."  	  
+      addparent_successfully: "Añadido %var0% al grupo %var1% a la lista de Herencia."
+      target_already_inherits: "Grupo %var0% ya esta en la lista de Herencia %var1%."
   defgroup:
     desc: "Permite Poner el grupo Predeterminado."
     usage: "Usage: /defgroup <group> [mundo]"
     messages:
       defgroup_successfully: "Grupo Predeterminado a sido cambiado a %var0%."
       group_not_exist: "El grupo %var0% NO existe."
-      level_not_exist: "El mundo %var0% NO existe."	  
+      level_not_exist: "El mundo %var0% NO existe."
   fperms:
     desc: "Muestra una lista con todos los permisos de un plugin."
     usage: "Uso: /fperms <plugin>"
@@ -45,11 +44,11 @@ cmds:
     usage: "Uso: /grpinfo <grupo> [mundo]"
     messages:
       group_not_exist: "El grupo %var0% NO existe."
-      grpinfo_header: "-- Group Information for %var0% --" 
+      grpinfo_header: "-- Group Information for %var0% --"
       grpinfo_alias: "ALIAS: %var0%"
-      grpinfo_default: "DEFAULT: %var0%" 
-      grpinfo_parents: "PARENTS: %var0%"	  
-      level_not_exist: "El mundo %var0% NO existe."	  
+      grpinfo_default: "DEFAULT: %var0%"
+      grpinfo_parents: "PARENTS: %var0%"
+      level_not_exist: "El mundo %var0% NO existe."
   listgperms:
     desc: "Muestra una lista con todos los permisos de un grupo."
     usage: "Uso: /listgperms <grupo> <página> [mundo]"
@@ -87,9 +86,9 @@ cmds:
       not_registered: "Esta cuenta no esta registrada."
       password_too_short: "Tu Contraseña no tiene caracteres suficentes de (%var0%) Caracteres."
       register_usage: "Uso: /ppsudo register <password>"
-      successfully_logged_in: "Ya esta logeado!."	 
+      successfully_logged_in: "Ya esta logeado!."
       successfully_registered: "Tu Cuenta a sido Registrada!."
-      unregister_usage: "Uso: /ppsudo unregister <contraseña>" 	
+      unregister_usage: "Uso: /ppsudo unregister <contraseña>"
   rmgroup:
     desc: "Elimina un grupo de la lista."
     usage: "Uso: /rmgroup <grupo>"
@@ -101,7 +100,7 @@ cmds:
     desc: "Removes a group from another group inheritance list."
     usage: "Usage: /rmparent <target_group> <parent_group>"
     messages:
-      rmparent_successfully: "Removed %var0% from group %var1%'s inheritance list."		  
+      rmparent_successfully: "Removed %var0% from group %var1%'s inheritance list."
   setgperm:
     desc: "Concede un permiso al grupo."
     usage: "Uso: /setgperm <grupo> <permiso> [mundo]"
@@ -114,7 +113,7 @@ cmds:
     usage: "Uso: /setgroup <usuario> <grupo> <exp_time> [mundo]"
     messages:
       access_denied_01: "No tienes permisos para Poner el jugador en el grupo %var0%."
-      access_denied_02: "No tienes permisos para Cambiar el grupo de un jugaro con el grupo %var0%."    
+      access_denied_02: "No tienes permisos para Cambiar el grupo de un jugaro con el grupo %var0%."
       group_not_exist: "El grupo %var0% NO existe."
       level_not_exist: "El mundo %var0% NO existe."
       on_player_group_change: "Tu Grupo a cambiado a %var0%!"
@@ -133,7 +132,7 @@ cmds:
       group_not_exist: "El grupo %var0% NO existe."
       level_not_exist: "El mundo %var0% NO existe."
   unsetuperm:
-    desc: "Revoca un permiso del usuario." 
+    desc: "Revoca un permiso del usuario."
     usage: "Uso: /unsetuperm <usuario> <permiso> [mundo]"
     messages:
       level_not_exist: "El mundo %var0% NO existe."

@@ -1,6 +1,6 @@
 # General
 
-PurePerms by 64FF00 is a permissions manager for PocketMine-MP. 
+PurePerms by 64FF00 is a permissions manager for PocketMine-MP.
 
 It can be used in conjunction with PureChat to display players groups in chat.
 
@@ -110,7 +110,8 @@ Guest:
 
 - Set up permissions for different groups!
 - Multi-group inheritance system to allow you to inherit group permissions
-- Multi-language support, just choose your favorite language in config.yml! (Currently supports Czech, English, German, Korean, Japanese, Russian, Italian, Indonesian, Slovak, Spanish, Turkish, and Ukrainian! :D)
+- Multi-language support, just choose your favorite language in config.yml! (Currently supports Czech, English, German,
+  Korean, Japanese, Russian, Italian, Indonesian, Slovak, Spanish, Turkish, and Ukrainian! :D)
 - Supports YAML + MySQL providers
 - Provides simple and flexible PurePerms API for plugin developers
 - And so on... ;)

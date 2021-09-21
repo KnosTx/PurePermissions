@@ -17,15 +17,15 @@ cmds:
     desc: "グループを別のグループの継承リストに追加します。."
     usage: "使用法: /addparent <操作対象のグループ> <親グループ>"
     messages:
-      addparent_successfully: "%var0%をグループ　%var1%の継承リストに追加しました."	 
-      target_already_inherits: "グループ　%var0% は 継承リストに既に追加されています　%var1%."     
+      addparent_successfully: "%var0%をグループ　%var1%の継承リストに追加しました."
+      target_already_inherits: "グループ　%var0% は 継承リストに既に追加されています　%var1%."
   defgroup:
     desc: "デフォルトのグループを決めることを許可します。"
     usage: "使い方: /defgroup <グループ> [ワールド]"
     messages:
       defgroup_successfully: "デフォルトのグループは %var0%に設定されました."
       group_not_exist: "グループ%var0%は存在しません。"
-      level_not_exist: "ワールド%var0%は存在しません。"	  
+      level_not_exist: "ワールド%var0%は存在しません。"
   fperms:
     desc: "特定のプラグインの権限リストを表示します。"
     usage: "使用法: /fperms <プラグイン>"
@@ -42,10 +42,10 @@ cmds:
     usage: "使用法: /grpinfo <グループ> [ワールド]"
     messages:
       group_not_exist: "グループ%var0%は存在しません。"
-      grpinfo_header: "-- %var0%　のグループ情報 --" 
+      grpinfo_header: "-- %var0%　のグループ情報 --"
       grpinfo_alias: "エイリアス: %var0%"
-      grpinfo_default: "デフォルト: %var0%" 
-      grpinfo_parents: "親: %var0%"	  
+      grpinfo_default: "デフォルト: %var0%"
+      grpinfo_parents: "親: %var0%"
       level_not_exist: "ワールド%var0%は存在しません。"
   listgperms:
     desc: "グループの権限のリストを表示します。"
@@ -84,9 +84,9 @@ cmds:
       not_registered: "このアカウントは登録されていません"
       password_too_short: "パスワードは(%var0%)文字以上必要です"
       register_usage: "Usage: /ppsudo register <パスワード>"
-      successfully_logged_in: "ログインしました"	 
+      successfully_logged_in: "ログインしました"
       successfully_registered: "あなたのアカウントは登録されました"
-      unregister_usage: "Usage: /ppsudo unregister <パスワード>" 
+      unregister_usage: "Usage: /ppsudo unregister <パスワード>"
   rmgroup:
     desc: "グループを削除します。"
     usage: "使用法: /rmgroup <グループ>"
@@ -98,7 +98,7 @@ cmds:
     desc: "別のグループの継承リストからグループを削除します。"
     usage: "使い方: /rmparent <操作対象のグループ> <親グループ>"
     messages:
-      rmparent_successfully: "%var0%を、グループ%var1%'の継承リストから削除しました"		  
+      rmparent_successfully: "%var0%を、グループ%var1%'の継承リストから削除しました"
   setgperm:
     desc: "グループに権限を追加します。"
     usage: "使用法: /setgperm <グループ> <権限> [ワールド]"
@@ -111,7 +111,7 @@ cmds:
     usage: "使用法: /setgroup <プレーヤー> <グループ> <exp_time> [ワールド]"
     messages:
       access_denied_01: "あなたはプレイヤーのグループを%var0%にする権限がありません。"
-      access_denied_02: "あなたはグループを持つ%var0%プレイヤーのグループを変える権限がありません。"    
+      access_denied_02: "あなたはグループを持つ%var0%プレイヤーのグループを変える権限がありません。"
       group_not_exist: "グループ%var0%は存在しません。"
       level_not_exist: "ワールド%var0%は存在しません。"
       on_player_group_change: "あなたのグループは%var0%に変わりました!"
@@ -167,4 +167,4 @@ logger_messages:
   setProvider_NotFound: "データー管理方式%var0%は存在しません。デフォルトの方式に設定しました。"
   unregisterPlayer: "プレイヤーを%var0%から解除してます..."
   YAMLProvider_InvalidGroupsSettings: "GROUPS.YMLの設定が間違っています: groups.yml が無効、または壊れているかどうかに確認してください。"
-‌...
+  ‌...

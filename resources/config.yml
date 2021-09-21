@@ -1,4 +1,3 @@
-
 # PurePerms by 64FF00 (xktiverz@gmail.com, @64ff00 for Twitter)
 
 # 제 블로그 이외에 허락없이 마음대로 플러그인 배포하실 시에는 바로 한국어 파일 삭제 조치하고 공유 중단합니다
@@ -43,14 +42,14 @@ mysql-settings:
   user: "YourUsernameGoesHere"
   password: "YourPasswordGoesHere"
   db: "YourDBNameGoesHere"
-  
+
 # Sets a minimum length for a Noeul password when registering a new account
 # - int  
 noeul-minimum-pw-length: 6
-  
+
 # Special thanks to @jazzwhistle for helping me with this cool feature! #JAZZWHISTLE-FTW
 # Ranks that can only be set on console
 # Also, users with a superadmin-rank can only have their rank changed on console
 # - array
-superadmin-ranks: ["OP"]
+superadmin-ranks: [ "OP" ]
 ...
