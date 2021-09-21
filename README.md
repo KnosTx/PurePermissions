@@ -4,6 +4,8 @@ PurePerms by 64FF00 is a permissions manager for PocketMine-MP.
 
 It can be used in conjunction with PureChat to display players groups in chat.
 
+**NOTE: The legacy branch is reserved for backward compatibility of legacy data. However, support for the legacy branch will end once the plugin is refactored.**
+
 # Commands
 
 Command | Description | Permission
