@@ -14,7 +14,9 @@ disable-op: false
 
 # Set the default language for PurePerms
 # - en
+# - ru
 # English message resource by @64FF00 and @Samueljh1 (GitHub)
+# Russian message resource by @udachin26 (GitHub)
 default-language: en
 
 # Setting this option will allow you to use per-world permissions
