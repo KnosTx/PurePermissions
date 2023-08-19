@@ -259,7 +259,7 @@ class MySQLProvider implements ProviderInterface
             $isDefault = $tempGroupData["isDefault"] === true ? "1" : "0";
             $inheritance = implode(",", $tempGroupData["inheritance"]);
             $permissions = implode(",", $tempGroupData["permissions"]);
-            $this->db->query("INSERT INTO groups
+            $this->db->query("INSERT INTO `groups`
                 (groupName, alias, isDefault, inheritance, permissions)
                 VALUES
                 ('" . $this->db->escape_string($groupName) . "', '" . $this->db->escape_string($alias) . "', '" . $this->db->escape_string($isDefault) . "', '" . $this->db->escape_string($inheritance) . "', '" . $this->db->escape_string($permissions) . "')
